@@ -1,2 +1,5 @@
 # show docker version
 docker version
+
+# show docker version
+docker -v 
