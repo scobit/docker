@@ -1,0 +1,4 @@
+
+
+# stop all active containers
+docker stop $(docker ps -q)
