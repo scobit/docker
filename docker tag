@@ -1,0 +1,2 @@
+# create new image using existing and change it\s name and tag
+docker tag ubuntu:latest ubuntu:v2
