@@ -1,4 +1,5 @@
-
+# остановка контейнера
+docker stop {container_id} | {name}
 
 # stop all active containers
 docker stop $(docker ps -q)
