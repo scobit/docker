@@ -1,0 +1,2 @@
+# Build an image from a Dockerfile and put name with tag
+docker build -t ubuntu:apache .
