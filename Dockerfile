@@ -1,3 +1,4 @@
+vim Dockerfile
 FROM ubuntu:latest
 ENV TZ=Asia/Almaty
 ENV DEBIAN_FRONTEND=noninteractive
