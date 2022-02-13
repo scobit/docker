@@ -1,2 +1,23 @@
 # run tomcat image 
-docker run -it -p 1234:8080 tomcat
+docker run tomcat
+
+# run tomcat image and keep STDIN open even if not attached
+docker run -i tomcat
+docker run --interactive tomcat
+
+# run tomcat image and allocate a pseudo-TTY
+docker run -t tomcat /bin/bash
+docker run --tty tomcat /bin/bash
+
+
+# run tomcat image and keep STDIN open even if not attached and allocate a pseudo-TTY and publish a container's port(s) to the host
+docker run -it -p 1234:8080 tomcat /bin/bash
+or
+docker run -it -p 192.168.0.201:1234:8080 tomcat /bin/bash
+or
+docker run -it --publish 1234:8080 tomcat /bin/bash
+
+
+# run container in background and print container ID
+docker run -d -p 8080:80 nginx
+docker run --detach -p 8080:80 nginx
