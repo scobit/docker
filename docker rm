@@ -5,3 +5,5 @@ docker rm ContainerName|ContainerId
 docker rm -f ContainerName|ContainerId
 docker rm --force ContainerName|ContainerId
 
+# remove all containers
+docker rm $(docker ps -qa)
