@@ -1,0 +1,8 @@
+# start container
+docker start NameOfContainer|ContainderID
+
+# Attach STDOUT/STDERR and forward signals (interactive mode)
+docker start -a NameOfContainer|ContainderID
+docker start --attach NameOfContainer|ContainderID
+
+
