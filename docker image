@@ -1,0 +1,2 @@
+# show images
+docker image ls
