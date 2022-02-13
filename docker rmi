@@ -1,0 +1,7 @@
+# remove image
+docker rmi ImageName|ImageId
+
+# Force removal of the image
+docker rmi -f ImageName|ImageId
+docker rmi --force ImageName|ImageId
+
