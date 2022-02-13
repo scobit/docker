@@ -1,0 +1,7 @@
+# show docker images
+docker images
+
+# Only show image IDs
+docker images -q
+docker images --quiet
+
