@@ -1,0 +1,7 @@
+# remove container
+docker rm ContainerName|ContainerId
+
+# Force the removal of a running container (uses SIGKILL)
+docker rm -f ContainerName|ContainerId
+docker rm --force ContainerName|ContainerId
+
