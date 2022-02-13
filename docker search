@@ -1,0 +1,6 @@
+# search image in docker hub
+docker search tomcat
+
+# Max number of search results (default 25)
+docker search tomcat --limit 5
+
