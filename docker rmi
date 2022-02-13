@@ -5,3 +5,5 @@ docker rmi ImageName|ImageId
 docker rmi -f ImageName|ImageId
 docker rmi --force ImageName|ImageId
 
+# remove all images
+docker rmi $(docker images -q)
