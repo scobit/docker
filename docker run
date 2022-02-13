@@ -21,3 +21,9 @@ docker run -it --publish 1234:8080 tomcat /bin/bash
 # run container in background and print container ID
 docker run -d -p 8080:80 nginx
 docker run --detach -p 8080:80 nginx
+
+# запуск с указанием имени контейнера
+docker run --name hello hello-world
+
+# Automatically remove the container when it exits
+docker run --name hello -d --rm hello-world
