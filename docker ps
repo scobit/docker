@@ -1,0 +1,21 @@
+# show all launched containers
+docker ps
+
+# show all containers 
+docker ps -a
+docker ps --all
+
+# show size of container 
+docker ps -s
+docker ps --size
+
+# display only containers id
+docker ps -q
+docker ps --quite
+
+# show the latest created container 
+docker ps -l
+docker ps --latest
+
+
+
