@@ -1,0 +1,5 @@
+# basic help
+docker --help
+
+# help with specific command
+docker command --help
