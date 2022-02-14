@@ -1,0 +1,15 @@
+# display container logs
+docker logs ContainerNameOrId
+
+# Follow log output
+docker logs -f ContainerNameOrId
+docker logs --follow ContainerNameOrId
+ctrl + c
+
+# Number of lines to show from the end of the logs (default "all")
+docker logs --tail 10 ContainerNameOrId
+docker logs -n 10 ContainerNameOrId
+
+# Show timestamps
+docker logs --tail 10 -t ContainerNameOrId
+docker logs --timestamps  10 -t ContainerNameOrId
