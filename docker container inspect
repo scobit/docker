@@ -1,0 +1,3 @@
+docker inspect MyDemon
+
+docker inspect --format='{{.State.Running}}' MyDemon
