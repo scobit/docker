@@ -17,5 +17,6 @@ docker ps --quite
 docker ps -l
 docker ps --latest
 
-
+# количество последних запущенных контейноров 
+docker ps -n 1
 
