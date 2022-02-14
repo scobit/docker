@@ -1,0 +1,2 @@
+# Attach local standard input, output, and error streams to a running container
+docker attach NameOfContainer
