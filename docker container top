@@ -1,0 +1,3 @@
+# отобразить текущие процессы в контейнере
+docker top ContainerNameOrId
+
