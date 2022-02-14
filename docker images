@@ -5,3 +5,5 @@ docker images
 docker images -q
 docker images --quiet
 
+# show only images with name condition
+docker images ubuntu
