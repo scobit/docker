@@ -7,3 +7,4 @@ docker rmi --force ImageName|ImageId
 
 # remove all images
 docker rmi $(docker images -q)
+docker rmi $(docker images -aq)
