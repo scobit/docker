@@ -1,0 +1,5 @@
+# 
+docker commit ContainderIdOrName ImageName:sometag
+
+# создание нового образа с доп информацией
+docker commit -m="this is ubuntu with vim" --author="Alex" ContainderIdOrName ImageName:sometag
