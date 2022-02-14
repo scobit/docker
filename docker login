@@ -1,0 +1,8 @@
+# If no server is specified, the default is defined by the daemon
+docker login
+
+# login using password and login
+docker login -u login -p password
+
+# Take the password from stdin, Must provide --username
+echo "password" | docker login -u login --password-stdin
