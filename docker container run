@@ -31,3 +31,5 @@ docker run --name hello -d --rm hello-world
 # run using timezone option
 docker run -rm --name web -p 8080:8080 -e TZ=Europe/Moscow hello-world
 
+# запуск контейнера используя теги
+docker run -t -i ubuntu:12.04 /bin/bash
