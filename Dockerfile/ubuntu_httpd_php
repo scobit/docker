@@ -1,9 +1,11 @@
 vim Dockerfile
 
 FROM ubuntu
-RUN apt -y update
-RUN apt -y install httpd
-RUN apt -y install php
+ENV TZ=Asia/Almaty
+ENV DEBIAN_FRONTEND=noninteractive
+RUN apt-get -y update
+RUN apt-get -y install httpd
+RUN apt-get -y install php
 COPY ./index.php /var/www/html/index.php
 CMD ["/usr/sbin/httpd","-D","FOREGROUND"]
 EXPOSE 80
