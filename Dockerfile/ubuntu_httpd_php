@@ -1,0 +1,9 @@
+vim Dockerfile
+
+FROM ubuntu
+RUN apt -y update
+RUN apt -y install httpd
+RUN apt -y install php
+COPY ./index.php /var/www/html/index.php
+CMD ["/usr/sbin/httpd","-D","FOREGROUND"]
+EXPOSE 80
