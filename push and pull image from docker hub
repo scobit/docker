@@ -1,0 +1,12 @@
+# tag existing image
+docker tag myImage:latest loginName/repositoryName:tag
+
+# login to docker hub
+docker login
+
+# push image to repository
+docker push loginName/repositoryName:tag
+
+# pull image from repository
+docker pull loginName/repositoryName:tag
+
