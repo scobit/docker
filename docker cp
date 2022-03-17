@@ -1,0 +1,6 @@
+# copy file form container
+docker cp ContainerName:/path/file /localpath/
+
+# copy file to container
+docker cp /localpath/file ContainerName:/path/file
+
