@@ -14,6 +14,8 @@
 
   
 /root/.docker/config.json 
+or
+~/.docker/config.json
 
 {
 	"auths": {
