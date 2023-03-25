@@ -46,3 +46,7 @@ Environment="NO_PROXY="localhost,127.0.0.1,::1,vkc-aptmirror,192.168.195.195,192
 
 
 https://www.ibm.com/support/pages/steps-follow-while-restarting-kubernetes-and-docker-infosphere-information-server-installations
+
+
+# docker proxy
+/etc/systemd/system/docker.service.d/http-proxy.conf
